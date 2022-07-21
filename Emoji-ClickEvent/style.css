@@ -1,0 +1,29 @@
+
+body {
+
+display: flex;  
+flex-direction: column;
+justify-content: center; 
+align-items: center;
+height: 100vh;
+}
+
+.emoji {
+    font-size: 10rem;
+    cursor: pointer;
+}
+
+.closed {
+    display: none; /* Closed monkey emoji is not visible on page */
+   
+}
+
+.open {
+    display: none; /* Open monkey emoji is not visible on page */
+   
+}
+
+.active {
+    display: block;  /* Display active monkey emoji to click on it */
+}
+ 
